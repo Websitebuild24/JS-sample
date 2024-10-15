@@ -1,0 +1,71 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>  
+    @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+    body{
+      background-color: black;
+    }
+    #header{
+      margin-top: 50px;
+      color: yellow;
+      font-family: italic;
+      text-align: center;
+       font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+    }
+    
+    #header:hover{
+        font-family: "LXGW WenKai Mono TC", monospace;
+  font-weight: 400;
+  font-style: normal;
+    }
+    
+#btn{
+  margin: 200px;
+  border: #fcbe24 1px solid;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+#btnid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+   #btn:hover{
+  border-radius: 15px;
+    border: #fcbe24 2px solid;
+    background-color: yellow ;
+    cursor: pointer;
+}
+
+.a{
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color:black;
+}</style>
+  </head>
+  <body>
+    <h1 id="header"> This is first code</h1>
+<div id="btnid"> 
+<button id="btn"> <a class="a" href="https://www.nobroker.in/admin/leads/nri/lists" target="_blank">Find Me </a></button>
+</div>
+    <script src="src/script.js">document.getElementById("btn").addEventListener("click", function myFunction(){
+  alert("Are you sure to change page?");
+ });</script>
+  </body>
+  
